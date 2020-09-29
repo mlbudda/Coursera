@@ -74,3 +74,28 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal-content {
+  background-color: $background-pale;
+  color: #0f0f0f;
+}
+
+#reservationModal {
+  .modal-header {
+    background-color: $background-dark;
+    color: #ddd;
+    .close {
+      color: white;
+    }
+  }
+}
+
+#loginModal {
+  .modal-header {
+    background-color: $background-dark;
+    color: #ddd;
+    .close {
+      color: white;
+    }
+  }
+}
